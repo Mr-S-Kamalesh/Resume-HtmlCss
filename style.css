@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #add8e6;
+    
+}
+
+.main-content {
+    
+    display: grid;
+    grid-template-columns: 300px 850px;
+    width: 90%;
+    margin: 20px auto;
+  }
+.left-section{
+    grid-column: span 1;
+    background-color: #003147;
+    color: #fff;
+}
+.right-section{
+    grid-column: span 1 / span 2;
+    background-color: #fff;
+}
+
+.left-content{
+    padding: 0.5rem;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+}
+
+.contactInfo{
+    padding: 2%;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.skills{
+    text-align: center;
+    text-transform: uppercase;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+}
+.skill-item{
+    padding: 5px;
+}
+.skill-item1{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-left: 0;
+    letter-spacing: 1px;
+    color: red;
+}
+.para{
+    padding: 0.2rem;
+    padding-left: 0.4rem;
+}
+div.box{
+    display: flex;
+}
+.year{
+    width: 20%;
+    padding: 0.5rem;
+}
+.text{
+    width:80%;
+    padding: 0.5rem;
+}
+h6{
+    margin-top: 10px;
+}
+.projects{
+    padding: 0.5rem;
+}
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+@media (max-width: 681px){
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        min-height: 1000px;
+    }
+}
+.pp{
+    padding-left: 7px;   
+}
+#ul li{
+    padding-left: 14px;
+}
